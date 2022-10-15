@@ -9,4 +9,13 @@
 
 Dockerfile знаходиться в папці lab1 
 
+Для встановлення та запуску RabbitMq потрібно виконати дані команди в командному рядку:
+docker pull rabbitmq:3-management
+
+docker run --rm -it --hostname my-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-management
+
+і потім заходити на localhost:
+http://localhost:15672
+<img width="684" alt="image" src="https://user-images.githubusercontent.com/71703420/195991493-c5ad3144-9306-446f-ab5f-fed0d4f46332.png">
+
 
