@@ -25,7 +25,9 @@ docker run --rm -it --hostname my-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-
 <img width="733" alt="image" src="https://user-images.githubusercontent.com/71703420/195992631-3a086ae7-2691-42f2-878a-4228da2a76d4.png">
 
 Додамо в обох сервісах нового користувача та опис товару.
+
 <img width="250" alt="image" src="https://user-images.githubusercontent.com/71703420/195992226-6e7c02e3-bf31-4fc8-98c3-29a8ae7ef035.png">
+
 
 
 
