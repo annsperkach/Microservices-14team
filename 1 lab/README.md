@@ -28,6 +28,14 @@ docker run --rm -it --hostname my-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-
 
 <img width="250" alt="image" src="https://user-images.githubusercontent.com/71703420/195992226-6e7c02e3-bf31-4fc8-98c3-29a8ae7ef035.png">
 
+<img width="353" alt="image" src="https://user-images.githubusercontent.com/71703420/195992831-4570fc69-326b-4c2c-ab08-5010b1e92f87.png">
+
+<img width="440" alt="image" src="https://user-images.githubusercontent.com/71703420/195993228-1325bcd4-a8ef-43d4-b801-eb46a7697c4e.png">
+
+
+Також, у Docker Dekstop видно скачення RabbitMq та запуску наших сервісів за допомогою Kubernetes
+
+<img width="738" alt="image" src="https://user-images.githubusercontent.com/71703420/195993372-7eff9450-c22a-429b-bc4d-7b2bb24696e4.png">
 
 
 
