@@ -7,15 +7,30 @@
 
 Також було використано RabbitMQ — це брокер повідомлень загального призначення, який підтримує протоколи, включаючи MQTT, AMQP і STOMP. Він може мати справу з випадками використання з високою пропускною здатністю, такими як обробка онлайн-платежів. У даній лабораторній роботі RabbitMq діє як брокер повідомлень між мікросервісами. При додаванні чи зміні в одному з мікросервісів інформації в бази даних, у консолі ми бачимо оновлені зміни.
 
-Dockerfile знаходиться в папці lab1 
+Dockerfile знаходиться в папці lab1.
 
 Для встановлення та запуску RabbitMq потрібно виконати дані команди в командному рядку:
 docker pull rabbitmq:3-management
 
 docker run --rm -it --hostname my-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-management
 
-і потім заходити на localhost:
-http://localhost:15672
+Тепер зайшовши на http://localhost:15672 , використовуючи ім’я користувача «guest» і пароль «guest», ми створили Exchange з іменем «user» типу «Fanout» і двома чергами «user.postservice» і «user.otherservice».
+
 <img width="684" alt="image" src="https://user-images.githubusercontent.com/71703420/195991493-c5ad3144-9306-446f-ab5f-fed0d4f46332.png">
+
+Тепер запустивши Debug з Multiple Startup Projects можемо бачити 2 сервіси:
+
+<img width="776" alt="image" src="https://user-images.githubusercontent.com/71703420/195992044-28f96d48-2274-4f9c-a3e5-04e2139358a1.png">
+
+<img width="733" alt="image" src="https://user-images.githubusercontent.com/71703420/195992631-3a086ae7-2691-42f2-878a-4228da2a76d4.png">
+
+Додамо в обох сервісах нового користувача та опис товару.
+<img width="250" alt="image" src="https://user-images.githubusercontent.com/71703420/195992226-6e7c02e3-bf31-4fc8-98c3-29a8ae7ef035.png">
+
+
+
+
+
+
 
 
