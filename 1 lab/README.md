@@ -30,7 +30,7 @@ docker run --rm -it --hostname my-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-
 
 <img width="353" alt="image" src="https://user-images.githubusercontent.com/71703420/195992831-4570fc69-326b-4c2c-ab08-5010b1e92f87.png">
 
-![Без имени-1](https://user-images.githubusercontent.com/71703420/196036319-f02129a3-b905-48ea-8a65-9c13739d7cf9.png)
+![Без имени-1](https://user-images.githubusercontent.com/71703420/196036425-a39cc101-3bd8-4feb-8471-fe904fa51608.png)
 
 
 Також, у Docker Dekstop видно скачення RabbitMq та запуску наших сервісів за допомогою Kubernetes, що означає, що Docker file був успішно виконаний.
