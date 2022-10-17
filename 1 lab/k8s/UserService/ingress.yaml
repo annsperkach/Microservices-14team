@@ -1,0 +1,17 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: userservice-ingress
+  annotations:
+    kubernetes.io/ingress.class: "nginx"
+spec:
+  rules:
+    - http:
+        paths:
+          - path: /api/Users
+            pathType: "Prefix"
+            backend:
+              service:
+                name: userservice-service
+                port:
+                  number: 80
