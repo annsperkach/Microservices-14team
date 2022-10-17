@@ -10,7 +10,7 @@ namespace PostService
     {
         public static void Main(string[] args)
         {
-           // ListenForIntegrationEvents();
+            ListenForIntegrationEvents();
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
