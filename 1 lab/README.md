@@ -31,16 +31,17 @@ docker run --rm -it --hostname my-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-
 
 <img width="250" alt="image" src="https://user-images.githubusercontent.com/71703420/195992226-6e7c02e3-bf31-4fc8-98c3-29a8ae7ef035.png">
 
-<img width="353" height = "100" alt="image" src="https://user-images.githubusercontent.com/71703420/195992831-4570fc69-326b-4c2c-ab08-5010b1e92f87.png">
+<img width="270"  alt="image" src="https://user-images.githubusercontent.com/71703420/195992831-4570fc69-326b-4c2c-ab08-5010b1e92f87.png">
 
-![Без имени-1](https://user-images.githubusercontent.com/71703420/196036425-a39cc101-3bd8-4feb-8471-fe904fa51608.png)
+Можемо бачити успішне виконнаня:
 
-
-Можемо переглянути поточні образи, помітимо, що також є образ rabbitmq: 
-
-<img width="738" alt="image" src="https://github.com/annsperkach/Microservices-14team/blob/master/1%20lab/Screenshots/image.png">
+<img width="270" heigth = "150" alt="image" src="https://user-images.githubusercontent.com/71703420/196036425-a39cc101-3bd8-4feb-8471-fe904fa51608.png">
 
 Хід виконання роботи: 
+
+Створимо образ Docker для кожного додатку. Можемо переглянути поточні образи, помітимо, що також є образ rabbitmq: 
+
+<img width="738" alt="image" src="https://github.com/annsperkach/Microservices-14team/blob/master/1%20lab/Screenshots/image.png">
 
 Розгорнемо Deployment для UserService: 
 
