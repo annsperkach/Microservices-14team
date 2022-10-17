@@ -7,7 +7,10 @@
 
 Також було використано RabbitMQ — це брокер повідомлень загального призначення, який підтримує протоколи, включаючи MQTT, AMQP і STOMP. Він може мати справу з випадками використання з високою пропускною здатністю, такими як обробка онлайн-платежів. У даній лабораторній роботі RabbitMq діє як брокер повідомлень між мікросервісами. При додаванні чи зміні в одному з мікросервісів інформації в бази даних, у консолі ми бачимо оновлені зміни.
 
-Dockerfile знаходиться в папці lab1.
+Посилання на Dockerfile: <br>
+https://hub.docker.com/repository/docker/fromgreensky/userservice <br>
+https://hub.docker.com/repository/docker/fromgreensky/rabbitmq<br>
+https://hub.docker.com/repository/docker/fromgreensky/postservice<br>
 
 Для встановлення та запуску RabbitMq потрібно виконати дані команди в командному рядку:
 docker pull rabbitmq:3-management
@@ -28,14 +31,38 @@ docker run --rm -it --hostname my-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-
 
 <img width="250" alt="image" src="https://user-images.githubusercontent.com/71703420/195992226-6e7c02e3-bf31-4fc8-98c3-29a8ae7ef035.png">
 
-<img width="353" alt="image" src="https://user-images.githubusercontent.com/71703420/195992831-4570fc69-326b-4c2c-ab08-5010b1e92f87.png">
+<img width="353" height = "100" alt="image" src="https://user-images.githubusercontent.com/71703420/195992831-4570fc69-326b-4c2c-ab08-5010b1e92f87.png">
 
 ![Без имени-1](https://user-images.githubusercontent.com/71703420/196036425-a39cc101-3bd8-4feb-8471-fe904fa51608.png)
 
 
-Також, у Docker Dekstop видно використання RabbitMq та запуску наших сервісів за допомогою Kubernetes, що означає, що Docker file був успішно виконаний.
+Можемо переглянути поточні образи, помітимо, що також є образ rabbitmq: 
 
-<img width="738" alt="image" src="https://user-images.githubusercontent.com/71703420/195993372-7eff9450-c22a-429b-bc4d-7b2bb24696e4.png">
+<img width="738" alt="image" src="https://github.com/annsperkach/Microservices-14team/blob/master/1%20lab/Screenshots/image.png">
+
+Хід виконання роботи: 
+
+Розгорнемо Deployment для UserService: 
+
+<img width="738" alt="image" src="https://github.com/annsperkach/Microservices-14team/blob/master/1%20lab/Screenshots/deploy.png">
+
+Створимо Service для UserService:
+
+<img width="738" alt="image" src="https://github.com/annsperkach/Microservices-14team/blob/master/1%20lab/Screenshots/service.png">
+
+Аналогічно і для PostService:
+
+<img width="738" alt="image" src="https://github.com/annsperkach/Microservices-14team/blob/master/1%20lab/Screenshots/deploy%2Bservice2.png">
+
+Сервіси успішно створені: 
+
+<img width="738" alt="image" src="https://github.com/annsperkach/Microservices-14team/blob/master/1%20lab/Screenshots/getservices.png">
+
+Використаємо Ingress:
+
+<img width="738" alt="image" src="https://github.com/annsperkach/Microservices-14team/blob/master/1%20lab/Screenshots/ingress.png">
+
+
 
 
 
