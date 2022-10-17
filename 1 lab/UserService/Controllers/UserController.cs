@@ -51,7 +51,7 @@ namespace UserService.Controllers
                 id = user.ID,
                 newname = user.Name
             });
-         //   PublishToMessageQueue("user.update", integrationEventData);
+            PublishToMessageQueue("user.update", integrationEventData);
 
             return NoContent();
         }
@@ -67,7 +67,7 @@ namespace UserService.Controllers
                 id = user.ID,
                 name = user.Name
             });
-         //   PublishToMessageQueue("user.add", integrationEventData);
+            PublishToMessageQueue("user.add", integrationEventData);
 
             return CreatedAtAction("GetUser", new { id = user.ID }, user);
         }
