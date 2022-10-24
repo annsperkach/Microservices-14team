@@ -1,0 +1,14 @@
+<table>
+  <thead>
+    <th>Name</th>
+    <th>Mail</th>
+    <th>Purchase</th>
+  </thead>
+  <tbody>
+<tr *ngFor="let purchase of purchases">
+  <td>{{ purchase.name }}</td>
+  <td>{{ purchase.mail }}</td>
+  <td>{{ purchase.purchase }}</td>
+</tr>
+  </tbody>
+</table>

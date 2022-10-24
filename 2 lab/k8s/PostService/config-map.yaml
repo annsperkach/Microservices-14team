@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: postservice-config
+data:
+  POSTGRES_DB: postservicecontext
+  POSTGRES_HOST: postgres

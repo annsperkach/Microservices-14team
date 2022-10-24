@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: userservice-deployment
+spec:
+  replicas: 1                      # кількість екземплярів Pod, що буде створено цим Deployment
+  selector:
+    matchLabels:
+      app: userservice                # селектор по якому Deployment зв'язаний з Pod
+  template:
+    metadata:
+     labels:
+       app: userservice               # мітка Pod по якому вона буде зв'язана з Deployment та Service
+    spec:
+      containers:
+        - image: userservice:latest       # образ Docker
+          imagePullPolicy: Never   # вказує k8s, що образ не потрібно завантажувати (варто використовувати лише для випадків, коли образи локальні)
+          name: userservice           # ім'я контейнеру
+          # resources:
+          #    limits:
+          #       memory: 512Mi
+          #       cpu: "1"
+          #    requests:
+          #       memory: 256Mi
+          #       cpu: "0.2"
+          ports:
+            - containerPort: 80  # порт по якому можна звертатись до подu
+    
