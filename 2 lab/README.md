@@ -8,8 +8,8 @@
 3. Додати автоматичний запуск міграцій.
 4. Розширити сервіс, додати роботу з базою.
 
-За умовою завдання було створено 2 сервіси та клієнт у середовищі Visual Studio та Docker Dekstop з використанням RabbitMQ, C#, REST-API, Entity Framework та Kubernetes. За бізнес логікою ми створили додаток, в якому клієнт може постити свої покупки з описом та рецензією чи варто купувати цю річ.
-Підключили БД, розширили сервіс, реалізувавши CRUD. Написали міграції.
+Було створено 2 сервіси та клієнт у середовищі Visual Studio та Docker Dekstop з використанням RabbitMQ, C#, REST-API, Entity Framework та Kubernetes. За бізнес логікою ми створили додаток, в якому клієнт може постити свої покупки з описом та рецензією чи варто купувати цю річ.
+**За умовою завдання було підключенно БД, також розширили сервіс та реалізувавши CRUD. Написали міграції.**
 
 Перший сервіс відповідає за дані користувача та товар, про який він хоче розповісти, а другий сервіс безпосередньо за опис та заголовок даного поста.
 
@@ -72,5 +72,18 @@ docker run --rm -it --hostname my-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-
 Використаємо Ingress:
 
 <img width="738" alt="image" src="https://github.com/annsperkach/Microservices-14team/blob/master/1%20lab/Screenshots/ingress.png">
+
 <img width="738" alt="image" src="https://user-images.githubusercontent.com/50235747/197525489-dedb07b3-c760-4f8f-a595-9ea51cf3dcf1.png">
+
+Робота сервісу через проксі:
+
+<img width="738" alt="image" src="https://user-images.githubusercontent.com/50235747/197525774-a0b732a5-a5cd-4499-8442-826da5b4633e.png">
+
+
+До сервісу можна звертатись за адресами (через інгрес)
+
+http://localhost/api/users
+http://localhost/api/post
+
+
 
