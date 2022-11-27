@@ -1,0 +1,192 @@
+{
+  "version": 2,
+  "dgSpecHash": "K1RopGhsrXAHY8KohxKYt8I7SB4ZcDm6Kxykx6cLqwGwP/bqyFyhybJMfdJrx68j/xEg18TS9OQ7qf9La+5GEQ==",
+  "success": false,
+  "projectFilePath": "D:\\microservices\\project\\services\\TimelineService\\TimelineService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\trach\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\trach\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.DependencyInjection.Abstractions' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.Extensions.DependencyInjection.Abstractions'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Extensions.DependencyInjection.Abstractions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.DependencyInjection.Abstractions' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.Extensions.DependencyInjection.Abstractions'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Extensions.DependencyInjection.Abstractions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.AspNetCore.Authentication.JwtBearer' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.AspNetCore.Authentication.JwtBearer'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.AspNetCore.Authentication.JwtBearer"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.AspNetCore.Authentication.JwtBearer' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.AspNetCore.Authentication.JwtBearer'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.AspNetCore.Authentication.JwtBearer"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Swashbuckle.AspNetCore' from remote source 'https://packagesource/FindPackagesById()?id='Swashbuckle.AspNetCore'&semVerLevel=2.0.0'.",
+      "libraryId": "Swashbuckle.AspNetCore"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Swashbuckle.AspNetCore' from remote source 'https://packagesource/FindPackagesById()?id='Swashbuckle.AspNetCore'&semVerLevel=2.0.0'.",
+      "libraryId": "Swashbuckle.AspNetCore"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.AspNetCore.OpenApi' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.AspNetCore.OpenApi'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.AspNetCore.OpenApi"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.AspNetCore.OpenApi' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.AspNetCore.OpenApi'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.AspNetCore.OpenApi"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.OpenApi' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.OpenApi'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.OpenApi"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.OpenApi' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.OpenApi'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.OpenApi"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.ApiDescription.Server' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.Extensions.ApiDescription.Server'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Extensions.ApiDescription.Server"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.ApiDescription.Server' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.Extensions.ApiDescription.Server'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Extensions.ApiDescription.Server"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Swashbuckle.AspNetCore.SwaggerUI' from remote source 'https://packagesource/FindPackagesById()?id='Swashbuckle.AspNetCore.SwaggerUI'&semVerLevel=2.0.0'.",
+      "libraryId": "Swashbuckle.AspNetCore.SwaggerUI"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Swashbuckle.AspNetCore.SwaggerUI' from remote source 'https://packagesource/FindPackagesById()?id='Swashbuckle.AspNetCore.SwaggerUI'&semVerLevel=2.0.0'.",
+      "libraryId": "Swashbuckle.AspNetCore.SwaggerUI"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Swashbuckle.AspNetCore.SwaggerGen' from remote source 'https://packagesource/FindPackagesById()?id='Swashbuckle.AspNetCore.SwaggerGen'&semVerLevel=2.0.0'.",
+      "libraryId": "Swashbuckle.AspNetCore.SwaggerGen"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Swashbuckle.AspNetCore.SwaggerGen' from remote source 'https://packagesource/FindPackagesById()?id='Swashbuckle.AspNetCore.SwaggerGen'&semVerLevel=2.0.0'.",
+      "libraryId": "Swashbuckle.AspNetCore.SwaggerGen"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Swashbuckle.AspNetCore.Swagger' from remote source 'https://packagesource/FindPackagesById()?id='Swashbuckle.AspNetCore.Swagger'&semVerLevel=2.0.0'.",
+      "libraryId": "Swashbuckle.AspNetCore.Swagger"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Swashbuckle.AspNetCore.Swagger' from remote source 'https://packagesource/FindPackagesById()?id='Swashbuckle.AspNetCore.Swagger'&semVerLevel=2.0.0'.",
+      "libraryId": "Swashbuckle.AspNetCore.Swagger"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.IdentityModel.Protocols' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.IdentityModel.Protocols'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.IdentityModel.Protocols"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.IdentityModel.Protocols' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.IdentityModel.Protocols'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.IdentityModel.Protocols"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.IdentityModel.Tokens.Jwt' from remote source 'https://packagesource/FindPackagesById()?id='System.IdentityModel.Tokens.Jwt'&semVerLevel=2.0.0'.",
+      "libraryId": "System.IdentityModel.Tokens.Jwt"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.IdentityModel.Tokens.Jwt' from remote source 'https://packagesource/FindPackagesById()?id='System.IdentityModel.Tokens.Jwt'&semVerLevel=2.0.0'.",
+      "libraryId": "System.IdentityModel.Tokens.Jwt"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.IdentityModel.Protocols.OpenIdConnect' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.IdentityModel.Protocols.OpenIdConnect'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.IdentityModel.Protocols.OpenIdConnect"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.IdentityModel.Protocols.OpenIdConnect' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.IdentityModel.Protocols.OpenIdConnect'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.IdentityModel.Protocols.OpenIdConnect"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.IdentityModel.JsonWebTokens' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.IdentityModel.JsonWebTokens'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.IdentityModel.JsonWebTokens"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.IdentityModel.JsonWebTokens' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.IdentityModel.JsonWebTokens'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.IdentityModel.JsonWebTokens"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.IdentityModel.Logging' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.IdentityModel.Logging'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.IdentityModel.Logging"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.IdentityModel.Logging' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.IdentityModel.Logging'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.IdentityModel.Logging"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.IdentityModel.Tokens' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.IdentityModel.Tokens'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.IdentityModel.Tokens"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.IdentityModel.Tokens' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.IdentityModel.Tokens'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.IdentityModel.Tokens"
+    }
+  ]
+}
