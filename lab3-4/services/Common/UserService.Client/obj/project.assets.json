@@ -1,0 +1,135 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Common.Clients/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Common.Clients.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Common.Clients.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "UserService.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/UserService.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UserService.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Common.Clients/1.0.0": {
+      "type": "project",
+      "path": "../Common.Clients/Common.Clients.csproj",
+      "msbuildProject": "../Common.Clients/Common.Clients.csproj"
+    },
+    "UserService.Models/1.0.0": {
+      "type": "project",
+      "path": "../UserService.Models/UserService.Models.csproj",
+      "msbuildProject": "../UserService.Models/UserService.Models.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Common.Clients >= 1.0.0",
+      "Microsoft.Extensions.DependencyInjection.Abstractions >= 7.0.0",
+      "UserService.Models >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\trach\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\microservices\\project\\services\\common\\UserService.Client\\UserService.Client.csproj",
+      "projectName": "Common.Clients.UserService",
+      "projectPath": "D:\\microservices\\project\\services\\common\\UserService.Client\\UserService.Client.csproj",
+      "packagesPath": "C:\\Users\\trach\\.nuget\\packages\\",
+      "outputPath": "D:\\microservices\\project\\services\\common\\UserService.Client\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\trach\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://packagesource": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "D:\\microservices\\project\\services\\common\\Common.Clients\\Common.Clients.csproj": {
+              "projectPath": "D:\\microservices\\project\\services\\common\\Common.Clients\\Common.Clients.csproj"
+            },
+            "D:\\microservices\\project\\services\\common\\UserService.Models\\UserService.Models.csproj": {
+              "projectPath": "D:\\microservices\\project\\services\\common\\UserService.Models\\UserService.Models.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": {
+            "target": "Package",
+            "version": "[7.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.DependencyInjection.Abstractions' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.Extensions.DependencyInjection.Abstractions'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Extensions.DependencyInjection.Abstractions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.DependencyInjection.Abstractions' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.Extensions.DependencyInjection.Abstractions'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Extensions.DependencyInjection.Abstractions"
+    }
+  ]
+}

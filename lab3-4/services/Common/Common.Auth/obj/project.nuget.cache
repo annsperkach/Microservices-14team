@@ -1,0 +1,96 @@
+{
+  "version": 2,
+  "dgSpecHash": "XQ/7sYVYHNsKwaO4METNsqsIhIk4yAMv2hcmozWKLlGyv3g94V5tp9Fxgd5oruyCmwiQBq5wo9Sca2F3Shd+Gw==",
+  "success": false,
+  "projectFilePath": "D:\\microservices\\project\\services\\common\\Common.Auth\\Common.Auth.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\trach\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\trach\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.AspNetCore.Authentication.JwtBearer' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.AspNetCore.Authentication.JwtBearer'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.AspNetCore.Authentication.JwtBearer"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.AspNetCore.Authentication.JwtBearer' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.AspNetCore.Authentication.JwtBearer'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.AspNetCore.Authentication.JwtBearer"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.IdentityModel.Protocols' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.IdentityModel.Protocols'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.IdentityModel.Protocols"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.IdentityModel.Protocols' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.IdentityModel.Protocols'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.IdentityModel.Protocols"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.IdentityModel.Tokens.Jwt' from remote source 'https://packagesource/FindPackagesById()?id='System.IdentityModel.Tokens.Jwt'&semVerLevel=2.0.0'.",
+      "libraryId": "System.IdentityModel.Tokens.Jwt"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.IdentityModel.Tokens.Jwt' from remote source 'https://packagesource/FindPackagesById()?id='System.IdentityModel.Tokens.Jwt'&semVerLevel=2.0.0'.",
+      "libraryId": "System.IdentityModel.Tokens.Jwt"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.IdentityModel.Protocols.OpenIdConnect' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.IdentityModel.Protocols.OpenIdConnect'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.IdentityModel.Protocols.OpenIdConnect"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.IdentityModel.Protocols.OpenIdConnect' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.IdentityModel.Protocols.OpenIdConnect'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.IdentityModel.Protocols.OpenIdConnect"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.IdentityModel.JsonWebTokens' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.IdentityModel.JsonWebTokens'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.IdentityModel.JsonWebTokens"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.IdentityModel.JsonWebTokens' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.IdentityModel.JsonWebTokens'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.IdentityModel.JsonWebTokens"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.IdentityModel.Logging' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.IdentityModel.Logging'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.IdentityModel.Logging"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.IdentityModel.Logging' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.IdentityModel.Logging'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.IdentityModel.Logging"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.IdentityModel.Tokens' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.IdentityModel.Tokens'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.IdentityModel.Tokens"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.IdentityModel.Tokens' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.IdentityModel.Tokens'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.IdentityModel.Tokens"
+    }
+  ]
+}
